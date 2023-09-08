@@ -1,29 +1,24 @@
 
 <div class="container">
-  <h1>order confirmation</h1>
-  <form target="_blank" action="https://formsubmit.co/ma7elorder@gmail.com" method="POST">
+  <h1>Order Confirmation</h1>
+  <form action="https://formsubmit.co/ma7elorder@gmail.com" method="POST" target="_blank">
     <div class="form-group">
       <div class="form-row">
         <div class="col">
-          
-        <div class="col">
-          
-          <input type="name" name="name" class="form-control" placeholder="size" required>
-        </div> 
-        <input type="number" name="number" class="form-control" placeholder="phone number" required>
+          <input type="text" name="size" class="form-control" placeholder="Size" required>
         </div>
-        <input type="text" name="name" class="form-control" placeholder="location" required>
-      
+        <div class="col">
+          <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required>
+        </div>
       </div>
     </div>
     <div class="form-group">
-      <textarea placeholder="Your order" class="form-control" name="message" rows="10" required></textarea>
+      <input type="text" name="location" class="form-control" placeholder="Location" required>
+    </div>
+    <div class="form-group">
+      <textarea name="order" class="form-control" placeholder="Your Order" rows="10" required></textarea>
     </div>
     <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
   </form>
 </div>
-
 <link rel="stylesheet" type="text/css" href="style.css">
-
-
-  
